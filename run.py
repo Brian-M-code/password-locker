@@ -109,7 +109,7 @@ def main():
                         print(' ')
                         print('Enter your credential details:')
 
-                        site_name = input('Enter site name... eg \'google\'').strip()
+                        site_name = input('Enter site name... eg \'instagram\'').strip()
                         account_name = input('Enter your account\'s name - ').strip()
                         while True:
                             print(' ')
