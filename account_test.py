@@ -6,12 +6,12 @@ class TestAccount(unittest.TestCase):
     def setUp(self):
        
         self.new_account = Account(
-            'Cate', 'Nduku', 'catenduku995@@gmail.com', '0700000006', 'abc1234')
+            'Brian', 'Mutuma', 'brian@yahoo.com', '0700000006', 'abc1234')
 
     def test__init__(self):
         self.assertEqual(self.new_account.first_name, 'Brian')
         self.assertEqual(self.new_account.last_name, 'Mutuma')
-        # self.assertEqual(self.new_account.email, 'catenduku995@gmail.com')
+        
         self.assertEqual(self.new_account.phone_number, '0700000006')
         self.assertEqual(self.new_account.password, 'abc1234')
 
